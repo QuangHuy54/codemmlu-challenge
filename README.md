@@ -1,6 +1,10 @@
 # CodeMMLU Challenge
 
-The CodeMMLU benchmark tests LLMs on their understanding of code and software engineering principles through nearly 3,000 multiple-choice questions. My work focuses on evaluating and fine-tuning two competitive open-source models:
+The CodeMMLU benchmark tests LLMs on their understanding of code and software engineering principles through nearly 3,000 multiple-choice questions.
+
+Challenge link: https://www.kaggle.com/competitions/fpt-ai-residency-batch-6-entry-test/overview
+
+ My work focuses on evaluating and fine-tuning two competitive open-source models:
 
 - **Meta-LLaMA-3.3-70B Instruct**
 - **Qwen3-32B**
@@ -15,7 +19,7 @@ Since the original training set contains only questions and correct answers, I u
 
 ### 3. Fine-tuning and Submission
 - **Meta-LLaMA-3.3-70B Instruct** was fine-tuned using **LoRA** and deployed via **Together AI**.
-- **Qwen3-32B** was fine-tuned on **Google Colab A100 GPU** using the **Unsloth** library.
+- **Qwen3-32B** was fine-tuned on **Google Colab** using the **Unsloth** library.
 
 Model performance was evaluated via private leaderboard submissions.
 
